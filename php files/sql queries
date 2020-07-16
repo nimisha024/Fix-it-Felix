@@ -1,0 +1,15 @@
+create table 'pothole'(
+'p_id' int not null auto_increment,
+'u_id' int,
+'latitude' varchar(255),
+'longitude' varchar(255),
+'date' TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (`p_id`),
+FOREIGN KEY ('u_id') REFERENCES user('u_id'));
+
+in_vit_sql_s10
+0racleforme123
+*m3eT1*5km
+softskills@123
+courseraforvit
+Livesqlforvit123
